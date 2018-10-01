@@ -1,0 +1,100 @@
+/*Basic styles*/
+.text-shadow {
+    text-shadow: 1px 1px 0 red;
+}
+
+.font-marker {
+    font-family: 'Permanent Marker', cursive;
+}
+
+/*Scroll up arrow style*/
+.to-top {
+    position: fixed;
+    bottom: 10px;
+    right: 15px;
+    text-align: center;
+    font-size: 50px;
+    color: #008000;
+    z-index: 9999;
+}
+
+/*Header style*/
+.bg-light-dark {
+    background: #061213;
+}
+
+.logo {
+    height: 50px;
+}
+
+.welcome {
+    background: url("../images/welcome.jpeg")  fixed center;
+    background-size:cover;
+    width: 100%;
+}
+
+.welcome .row {
+    min-height: 500px;
+}
+
+.welcome-button {
+    border-color: #28a745;
+    color: white;
+}
+
+.welcome .display-4{
+    font-size: 3em;
+}
+
+/*More info style*/
+#more-info {
+    min-height: 300px;
+}
+
+#more-info {
+    padding: 50px 0;
+}
+
+#more-info .icon i {
+    font-size: 80px;
+    color: green;
+}
+
+/*Letter style*/
+#letter {
+    padding: 50px 0;
+    background: url("../images/bg.jpg") no-repeat fixed center;
+    background-size: cover;
+    color: white;
+}
+
+/*Google maps style*/
+iframe {
+    min-height: 700px;
+}
+
+#maps .container-fluid {
+    padding: 0;
+}
+
+/*Footer style*/
+footer{
+    background: black;
+}
+
+footer .container {
+    height: 150px;
+}
+
+footer{
+    min-height: 200px;
+    color: white;
+}
+
+footer span {
+    font-size: 12px;
+}
+
+footer i {
+    padding-left: 25px;
+}
